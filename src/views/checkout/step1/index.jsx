@@ -30,7 +30,7 @@ const OrderSummary = ({ basket, subtotal }) => {
             <BasketItem
               basket={basket}
               dispatch={dispatch}
-              key={product.id}
+              key={product?.id}
               product={product}
             />
           ))}

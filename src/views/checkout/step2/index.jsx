@@ -65,6 +65,8 @@ const ShippingDetails = ({ profile, shipping, subtotal }) => {
     history.push(CHECKOUT_STEP_3);
   };
 
+  console.log(Form, 'checkForm');
+
   return (
     <Boundary>
       <div className="checkout">
